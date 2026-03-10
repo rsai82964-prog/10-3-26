@@ -174,3 +174,84 @@ printf("%d is fail",n);
 }
 return 0;
 }
+//To convert days into months and days
+#include<stdio.h>
+int main()
+{
+int totaldays;
+int months,days;
+printf("Enter totaldays= ");
+scanf("%d",&totaldays);
+months=totaldays/30;
+days=totaldays%30;
+printf("months="%d/n",months);
+printf("days="%d",days);
+return 0;
+}
+
+//To convert days into years,months and days
+#include<stdio.h>
+int main()
+{
+int Totaldays;
+int years,months,days;
+printf("Enter Totaldays=");
+scanf("%d",Totaldays);
+years=Totaldays/365;
+months=Totaldays%365;
+days=Totaldays%30;
+printf("Years=%d\n",years);
+printf("Months=%d\n",months);
+printf("Days=%d",days);
+return 0;
+}
+
+//To find the grade of a student
+#include<stdio.h>
+int main()
+{
+int marks;
+printf("Enter the marks= ");
+if (marks<0||marks>100){
+printf("Number is invaid");
+}
+else if (marks>=90){
+printf("Grade=S");
+}
+else if (marks>=80){
+printf("Grade=A");
+}
+else if (marks>=70){
+printf("Grade=B);
+}
+else if (marks>=60){
+printf("Grade=C");
+}
+else if (marks>=50){
+printf("Grade=D");
+}
+else(marks<50){
+printf("Fail");
+{
+return 0;
+}
+
+//Finding the greatest number
+#include<stdio.h>
+int main()
+{
+int c=10,b=22,a=9;
+if (a>b){
+if (a>c);
+printf("%d",a);
+else;
+printf("%d",c);
+}
+else{
+if (b>=c);
+printf("%d",b);
+else;
+printf("%d",c);
+}
+return 0;
+}
