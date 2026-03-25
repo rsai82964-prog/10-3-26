@@ -2,7 +2,7 @@
 
 int main()
 {
-    char str[100]="SNEHITHA";
+    char str[100]="RAHUL";
     int i = 0;
 
     printf("Enter a string: ");
