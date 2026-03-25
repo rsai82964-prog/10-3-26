@@ -3,9 +3,9 @@
 
 int main()
 {
-    char str[100]="sri vardhan";
-    char str1[100]="SRI VARDHAN";
-    char str2[100]="sri vardhan";
+    char str[100]="rahul";
+    char str1[100]="RAHUL";
+    char str2[100]="rahul";
     scanf("%s", str);
 
     strupr(str1);
