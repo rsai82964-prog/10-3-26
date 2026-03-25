@@ -2,7 +2,7 @@
 
 int main()
 {
-    char str[100]="vardhan";
+    char str[100]="rahul";
     int i = 0;
     scanf("%s", str);
 
