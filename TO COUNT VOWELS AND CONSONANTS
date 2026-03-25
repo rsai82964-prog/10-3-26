@@ -2,7 +2,7 @@
 
 int main()
 {
-    char str[100]="vardhan";
+    char str[100]="sai";
     int i, vowels = 0, consonants = 0;
     scanf("%s", str);
 
