@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
     int num, temp, digit, sum;
-    printf("Enter a number: ");
     scanf("%d", &num);
 while (num != 1 && num != 4) {
         sum = 0;
