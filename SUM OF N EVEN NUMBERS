@@ -10,6 +10,6 @@ for(i = 1; i <= n; i++)
             sum = sum + i;
         }
     }
-printf("Sum of even numbers = %d", sum);
+printf("Sum of even" = %d", sum);
 return 0;
 }
