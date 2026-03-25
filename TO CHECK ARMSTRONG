@@ -1,0 +1,19 @@
+#include<stdio.h>
+void main()
+{
+    int sum=0,num,a,cube;
+    scanf("%d",&num);
+    a=num;
+    while (num!=0){
+        int digit = num%10;
+        cube=digit*digit*digit;
+        sum=sum+cube;
+        num=num/10;
+    }
+    if(a==sum){
+        printf("the number is armstrong");
+    }
+    else{
+        printf("the number is not armstrong");
+    }
+}

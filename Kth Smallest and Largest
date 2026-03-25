@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int arr[]={7,10,4,3,20,15};
+    int n=6,i,j,temp,k=3;
+
+    for(i=0;i<n;i++)
+    {
+        for(j=i+1;j<n;j++)
+        {
+            if(arr[i]>arr[j])
+            {
+                temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
+            }
+        }
+    }
+
+    printf("Kth Smallest = %d\n",arr[k-1]);
+    printf("Kth Largest = %d",arr[n-k]);
+}

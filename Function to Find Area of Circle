@@ -1,0 +1,14 @@
+#include<stdio.h>
+#define PI 3.14
+
+float area(int r)
+{
+    return PI*r*r;
+}
+
+int main()
+{
+    int r;
+    scanf("%d",&r);
+    printf("Area = %f", area(r));
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int digits(int n)
+{
+    int c=0;
+    while(n!=0)
+    {
+        n=n/10;
+        c++;
+    }
+    return c;
+}
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("Digits = %d", digits(n));
+}

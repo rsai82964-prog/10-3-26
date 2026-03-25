@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char str1[100]="snehitha";
+    char str2[100]="addusumilli",
+    scanf("%s", str1);
+    scanf("%s", str2);
+    strcpy(str2, str1);
+    printf("Copied string (strcpy): %s\n", str3);
+    strcat(str1, str2);
+    printf("Concatenated string (strcat): %s\n", str1);
+    return 0;
+}
