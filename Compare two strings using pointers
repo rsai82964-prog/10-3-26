@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    char str1[] = "apple";
+    char str1[] = "apple"; 
     char str2[] = "apple";
     char *p1 = str1;
     char *p2 = str2;
