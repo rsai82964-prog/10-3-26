@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a=5;
+int q,r;
+q=a/2;
+r=a%2;
+printf("Quotient=%d\n",q);
+print("Remainder=%d",r);
+return 0;
+}

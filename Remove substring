@@ -1,0 +1,24 @@
+
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str[100], sub[50];
+    int i, j, k;
+
+    scanf("%s %s", str, sub);
+
+    for(i=0; str[i]!='\0'; i++) {
+        if(str[i]==sub[0]) {
+            for(j=0; sub[j]!='\0'; j++)
+                if(str[i+j]!=sub[j]) break;
+
+            if(sub[j]=='\0') {
+                for(k=i; str[k+j]!='\0'; k++)
+                    str[k]=str[k+j];
+            }
+        }
+    }
+    printf("%s", str);
+}
+

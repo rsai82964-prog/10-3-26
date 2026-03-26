@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     int num, temp, digit, sum;
+    printf("Enter a number: ");
     scanf("%d", &num);
 while (num != 1 && num != 4) {
         sum = 0;
@@ -13,7 +14,7 @@ while (num > 0) {
     }
 if (num == 1)
         printf("Happy Number");
-    else 
+    else
         printf("Not a Happy Number");
 return 0;
 }

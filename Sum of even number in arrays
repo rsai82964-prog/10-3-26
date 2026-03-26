@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main() {
+    int arr[] = {1,2,3,4,5,6};
+    int *p = arr, sum = 0;
+
+    for(int i = 0; i < 6; i++) {
+        if(*(p + i) % 2 == 0)
+            sum += *(p + i);
+    }
+
+    printf("Sum of even = %d", sum);
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void main() {
+    int i = 1, sum = 0;
+    
+    while (i <= 10) {
+        if (i % 2 == 1) { // Only add to sum if the number is odd
+            sum = sum + i;
+        }
+        i++; // Increment happens every time to check the next number
+    }
+    
+    printf("sum = %d\n", sum);
+    printf("END");
+}

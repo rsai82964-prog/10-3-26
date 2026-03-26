@@ -9,7 +9,6 @@ int max(int a, int b)
 }
 
 int main()
-
 {
     int x,y;
     scanf("%d %d",&x,&y);

@@ -1,14 +1,14 @@
 #include<stdio.h>
 void main()
 {
-    int sum=0,n,a,cube;
-    scanf("%d",&n);
+    int sum=0,num,a,cube;
+    scanf("%d",&num);
     a=num;
     while (num!=0){
-        int digit = n%10;
+        int digit = num%10;
         cube=digit*digit*digit;
         sum=sum+cube;
-        n=n/10; 
+        num=num/10;
     }
     if(a==sum){
         printf("the number is armstrong");

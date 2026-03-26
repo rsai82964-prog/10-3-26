@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+    int a=7,b=10;
+    int max;
+    max=(a>b)?a:b;
+    printf("the maximum value is:%d",max);
+    return 0;
+}

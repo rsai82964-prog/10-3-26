@@ -1,0 +1,12 @@
+
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str[100], old[50], neww[50];
+
+    scanf("%s %s %s", str, old, neww);
+
+    if(strstr(str, old))
+        printf("Replacement logic needed (advanced)");
+}

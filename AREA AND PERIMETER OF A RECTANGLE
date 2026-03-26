@@ -1,0 +1,10 @@
+int main ()
+{
+    int l,b,perimeter,area;
+    scanf("%d%d",&l,&b);
+    perimeter=2*l+2*b;
+    area=l*b;
+    printf("the perimeter is %d",perimeter);
+    printf("the area is %d",area);
+    return 0;
+}

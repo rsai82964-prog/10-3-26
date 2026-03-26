@@ -7,9 +7,9 @@ for(i = 1; i <= n; i++)
     {
         if(i % 2 == 0)
         {
-            sum = sum + i; 
+            sum = sum + i;
         }
     }
-printf("Sum of even" = %d", sum);
+printf("Sum of even numbers = %d", sum);
 return 0;
 }

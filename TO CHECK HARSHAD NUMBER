@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int n, temp, digit, sum = 0;
+    int num, temp, digit, sum = 0;
     printf("Enter a number: ");
-    scanf("%d", &n);
+    scanf("%d", &num);
     temp = num;
     while (temp > 0) {
         digit = temp % 10;   
@@ -10,8 +10,8 @@ int main() {
         temp = temp / 10;    
     }
 if (num % sum == 0)
-        printf("%d is a Harshad Number", n); 
+        printf("%d is a Harshad Number", num);
     else
-        printf("%d is not a Harshad Number", n);
+        printf("%d is not a Harshad Number", num);
 return 0;
 }

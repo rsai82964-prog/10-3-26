@@ -6,7 +6,6 @@ int main()
     char str1[100]="snehitha";
     char str2[100]="addusumilli",
     scanf("%s", str1);
-
     scanf("%s", str2);
     strcpy(str2, str1);
     printf("Copied string (strcpy): %s\n", str3);

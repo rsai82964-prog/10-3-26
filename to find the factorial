@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void main() {
+    int i = 1, factorial = 1; // Start with 1 because multiplying by 0 results in 0
+    int n = 5; // Example: Finding the factorial of 5
+    
+    while (i <= n) {
+        factorial = factorial * i; // Multiply the current total by i
+        i++;
+    }
+    
+    printf("factorial = %d\n", factorial);
+    printf("END");
+}

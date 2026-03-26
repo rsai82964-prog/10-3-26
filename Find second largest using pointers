@@ -1,0 +1,22 @@
+
+
+#include <stdio.h>
+
+int main() {
+    int arr[] = {10, 50, 20, 40, 30};
+    int *p = arr;
+    int max = *p, second = -1;
+
+    for(int i = 1; i < 5; i++) {
+        if(*(p+i) > max) {
+            second = max;
+            max = *(p+i);
+        }
+        else if(*(p+i) > second && *(p+i) != max) {
+            second = *(p+i);
+        }
+    }
+
+    printf("Second largest = %d", second);
+    return 0;
+}

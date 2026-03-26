@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter the n= ");
+scanf("%d",&n);
+if (n>=35)
+{
+printf("%dis pass",n);
+}
+else
+{
+printf("%d is fail",n);
+}
+return 0;
+}

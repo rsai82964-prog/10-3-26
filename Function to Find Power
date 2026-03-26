@@ -9,7 +9,6 @@ int power(int b,int e)
 }
 
 int main()
-
 {
     int b,e;
     scanf("%d %d",&b,&e);
