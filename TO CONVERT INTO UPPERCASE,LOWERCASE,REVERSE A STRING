@@ -9,6 +9,7 @@ int main()
     scanf("%s", str);
 
     strupr(str1);
+
     strlwr(str2);
     strrev(str3);
 
