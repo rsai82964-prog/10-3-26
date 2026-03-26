@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int main() 
 {
     char str[100]="RAHUL";
     char rev[100];
