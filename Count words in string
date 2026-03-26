@@ -7,7 +7,7 @@ int main() {
     int words = 1;
     char *p = str;
 
-    while(*p) {
+    while(*p) { 
         if(*p == ' ')
             words++;
         p++;
