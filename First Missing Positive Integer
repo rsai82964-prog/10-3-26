@@ -4,7 +4,7 @@ int main()
     int arr[]={3,4,-1,1,5,2};
     int n=6,i,j,found;
 
-    for(i=1;i<=n+1;i++)
+    for(i=1;i<=n+1;i++) 
     {
         found=0;
         for(j=0;j<n;j++) 
