@@ -16,7 +16,7 @@ int main()
             }
         }
     }
-
+ 
     printf("Kth Smallest = %d\n",arr[k-1]);
     printf("Kth Largest = %d",arr[n-k]);
 }
