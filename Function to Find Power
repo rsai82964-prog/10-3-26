@@ -10,7 +10,7 @@ int power(int b,int e)
 
 int main()
 {
-    int b,e;
+    int b,e; 
     scanf("%d %d",&b,&e);
     printf("Power = %d", power(b,e));
 }
