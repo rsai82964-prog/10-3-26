@@ -12,7 +12,7 @@ int main()
     {
         leng++;
         i++;
-    }
+    } 
 
     printf("Length of the string = %d", leng);
 
