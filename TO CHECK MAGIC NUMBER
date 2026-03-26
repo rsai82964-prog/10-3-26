@@ -11,7 +11,7 @@ void main()
         temp=temp/10;
         }
     }
-    temp=sum;
+    temp=sum; 
     if (temp==1)
     printf("magic number");
     else
