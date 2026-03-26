@@ -6,8 +6,7 @@ int main()
     char rev[100];
     int i = 0, j = 0, len = 0;
     scanf("%s", str);
-
-    while(str[i] != '\0')
+ 
     {
         len++;
         i++; 
