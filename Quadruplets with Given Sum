@@ -9,6 +9,7 @@ int main()
     for(k=j+1;k<n;k++)
     for(l=k+1;l<n;l++)
     {
+
         if(arr[i]+arr[j]+arr[k]+arr[l]==sum)
             printf("%d %d %d %d\n",arr[i],arr[j],arr[k],arr[l]);
     }
