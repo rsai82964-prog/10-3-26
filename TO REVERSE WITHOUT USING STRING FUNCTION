@@ -10,7 +10,7 @@ int main()
     while(str[i] != '\0')
     {
         len++;
-        i++;
+        i++; 
     }
 
     i = len - 1;
