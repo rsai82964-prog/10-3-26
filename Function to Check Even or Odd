@@ -9,7 +9,7 @@ void check(int n)
 }
 
 int main()
-{
+{ 
     int n;
     scanf("%d",&n);
     check(n);
